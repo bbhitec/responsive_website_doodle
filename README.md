@@ -33,6 +33,9 @@ Building a responsive HTML and CSS portfolio website both for self learning and 
 [ ] testing screen sizes?<br>
 <br>
 
+### Repo condition
+![medium](https://img.shields.io/badge/medium&nbsp;clean-70-yellow)
+
 
 
 ## Usage/How to run
