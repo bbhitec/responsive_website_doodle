@@ -7,7 +7,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 280; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -54,10 +54,22 @@
     --z-tooltip: 10;
     --z-fixed: 100;
     --z-modal: 1000;
+
+
+    /*========== Sizes parameters ==========*/
+    --large-device-min-width: 968px;
+    --default-max-width: 968px;
+    --default-container-max-width: 768px;
+    --small-device-max-width: 767px;
+
+    /*========== Various ==========*/
+    --default-transition: .3s;
+    --longer-transition: .4s;
+
 }
 
 /* Font size for large devices */
-@media screen and (min-width: 968px) {
+@media screen and (min-width: var(--large-device-min-width)) {
     :root {
         --big-font-size: 3rem;
         --h1-font-size: 2.25rem;
@@ -164,7 +176,7 @@ img {
 
 /*==================== LAYOUT ====================*/
 .container {
-  max-width: 768px;
+  max-width: var(--container-max-width);
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
@@ -186,7 +198,7 @@ img {
 
 /*==================== NAV ====================*/
 .nav {
-  max-width: 968px;
+  max-width: var(--default-max-width);
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
@@ -210,7 +222,7 @@ img {
 }
 
 /* navigation menu for small screens*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: var(--small-device-max-width)) {
   .nav__menu {
       position: fixed;
       bottom: -100%;
@@ -220,7 +232,7 @@ img {
       padding: 2rem 1.5rem 4rem;
       box-shadow: 0 -1px 4px rgba(0,0,0,.15);
       border-radius: 1.5rem 1.5rem 0 0;
-      transition: .3s;
+      transition: var(--default-transition);
   }
 }
 
@@ -343,7 +355,7 @@ img {
 
 .home__scroll-button {
   color: var(--first-color);
-  transition: .3s;
+  transition: var(--default-transition);
 }
 
 .home__scroll-button:hover {
@@ -383,7 +395,7 @@ img {
 .button__icon {
   font-size: 1.25rem;
   margin-left: var(--mb-0-5);
-  transition: .3s;
+  transition: var(--default-transition);
 }
 
 .button--white{
@@ -433,7 +445,7 @@ img {
   z-index: var(--z-modal);
   opacity: 0;
   visibility: hidden;
-  transition: .3s;
+  transition: var(--default-transition);
 }
 
 .services__modal-content {
@@ -683,7 +695,7 @@ img {
   padding: 3.5rem .5rem 1.25rem 1.5rem;
   border-radius: .25rem;
   box-shadow: 0 2px 4px rgba(0,0,0,.15);
-  transition: .3s;
+  transition: var(--default-transition);
 }
 
 .services__content:hover {
@@ -960,7 +972,7 @@ img {
   padding: 0 .3rem;
   border-radius: .4rem;
   z-index: var(--z-tooltip);
-  transition: .4s;
+  transition: var(--longer-transition);
 }
 
 .scrollup:hover{
@@ -1318,10 +1330,6 @@ img {
   .contact__inputs{
     grid-template-columns: repeat(2, 1fr);
   }
-
-
-
-
 
 
 }
