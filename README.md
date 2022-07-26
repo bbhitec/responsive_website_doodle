@@ -34,7 +34,7 @@ Building a responsive HTML and CSS portfolio website both for self learning and 
 <br>
 
 ### Repo condition
-![medium](https://img.shields.io/badge/medium&nbsp;clean-70-yellow)
+![medium](https://img.shields.io/badge/medium&nbsp;clean-75-yellow)
 
 
 

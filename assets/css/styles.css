@@ -19,7 +19,7 @@
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: hsl(var(--hue-color), 60%, 99%);
-    --container-color: rgb(240, 237, 213);
+    --container-color: var(--body-color); /* used for the modals as well */
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
@@ -69,7 +69,7 @@
 }
 
 /* Font size for large devices */
-@media screen and (min-width: var(--large-device-min-width)) {
+@media screen and (min-width: 968px) {
     :root {
         --big-font-size: 3rem;
         --h1-font-size: 2.25rem;
@@ -176,7 +176,7 @@ img {
 
 /*==================== LAYOUT ====================*/
 .container {
-  max-width: var(--container-max-width);
+  max-width: var(--default-container-max-width);
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
@@ -198,7 +198,7 @@ img {
 
 /*==================== NAV ====================*/
 .nav {
-  max-width: var(--default-max-width);
+  max-width: var(968px);
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
@@ -950,7 +950,7 @@ img {
 .footer__copy{
   font-size: var(--smaller-font-size);
   text-align: center;
-  color: var(--text-color-lighter);
+  color: var(--text-color-light);
   margin-top: var(--mb-3);
 }
 
