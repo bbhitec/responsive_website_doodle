@@ -587,6 +587,10 @@ img {
 
 /*[todo] variables for percentages. or remove bars at all*/
 .skills__html {
+  width: 90%;
+}
+
+.skills__css {
   width: 80%;
 }
 
