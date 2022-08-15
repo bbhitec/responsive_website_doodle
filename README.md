@@ -22,6 +22,7 @@ Building a responsive HTML and CSS portfolio website both for self learning and 
 
 ## WIP
 [x] Initial skeleton website as per tutorial<br>
+[ ] ! There is a small screen-menu bug<br>
 [ ] Parametrize offsets: home blob image<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[ ] Parametrize (or remove entirely) the skills bar<br>
 [ ] Use efficient image formats?<br>
