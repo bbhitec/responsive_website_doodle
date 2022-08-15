@@ -12,7 +12,8 @@ Building a responsive HTML and CSS portfolio website both for self learning and 
 - Responsive elements behavior
 ### Other Gains
 - Swiper lib usage and configuration
-- [ ] [Optimizing site speed issues](https://pagespeed.web.dev/report?url=http%3A%2F%2Fwww.vnikolin.com%2F&form_factor=mobile)<br>
+- [ ] Parameter passing within HTML-CSS-JS
+- [ ] [Optimizing site speed issues](https://pagespeed.web.dev/report?url=http%3A%2F%2Fwww.vnikolin.com%2F&form_factor=mobile) and media formats<br>
 
 ### Skills stack
 ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -24,11 +25,8 @@ Building a responsive HTML and CSS portfolio website both for self learning and 
 [ ] Parametrize offsets: home blob image<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[ ] Parametrize (or remove entirely) the skills bar<br>
 [ ] Use efficient image formats?<br>
+[x] Neutral persona photos<br>
 [ ] Smooth scrolling everywhere?<br>
-[ ] Update relevant content: hobbies, github portfolio<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[ ] Match personal brand colors<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[ ] Clean up<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[ ] Move the dummy site to a different location as a show-off piece<br>
 [ ] Treat in-code \[todos\]<br>
 [ ] testing screen sizes?<br>
 <br>
@@ -39,7 +37,7 @@ Building a responsive HTML and CSS portfolio website both for self learning and 
 
 
 ## Usage/How to run
-Pull the project or [view the live site](http://www.vnikolin.com/)
+Pull the project or [view the live site](https://www.vnikolin.com/responsive_website_doodle/index.html/)
 
 ## Sources
 - Based on one of [`@bedimcode's`](https://github.com/bedimcode) awesome [tutorials](https://youtu.be/27JtRAI3QO8)
