@@ -1,3 +1,4 @@
+
 /*==================== GOOGLE FONTS ====================*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
@@ -61,6 +62,7 @@
     --default-max-width: 968px;
     --default-container-max-width: 768px;
     --small-device-max-width: 767px;
+    
 
     /*========== Various ==========*/
     --default-transition: .3s;
@@ -222,7 +224,8 @@ img {
 }
 
 /* navigation menu for small screens*/
-@media screen and (max-width: var(--small-device-max-width)) {
+/* [wiki] the media rule can't see can't use css variables in the modifyer ie: (max-width: var(...)) */
+@media screen and (max-width: 767px) {
   .nav__menu {
       position: fixed;
       bottom: -100%;
