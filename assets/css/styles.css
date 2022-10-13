@@ -56,13 +56,7 @@
     --z-fixed: 100;
     --z-modal: 1000;
 
-
-    /*========== Sizes parameters ==========*/
-    --large-device-min-width: 968px;
-    --default-max-width: 968px;
-    --default-container-max-width: 768px;
-    --small-device-max-width: 767px;
-    
+  
 
     /*========== Various ==========*/
     --default-transition: .3s;
@@ -178,7 +172,7 @@ img {
 
 /*==================== LAYOUT ====================*/
 .container {
-  max-width: var(--default-container-max-width);
+  max-width: 768px;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
