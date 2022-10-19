@@ -194,7 +194,7 @@ img {
 
 /*==================== NAV ====================*/
 .nav {
-  max-width: var(968px);
+  max-width: 968px;
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
@@ -559,7 +559,7 @@ img {
 
 .skills__arrow {
   margin-left: auto;
-  transition: .4s;
+  transition: var(--longer-transition);
 }
 
 .skills__name {
