@@ -93,7 +93,7 @@ const modalViews = document.querySelectorAll('.services__modal'),
               modalViews.forEach((modalView) =>{
                   modalView.classList.remove('active-modal')
               })
-          }) 
+          })
       })
 
 
@@ -129,7 +129,7 @@ let swiperTestimonial = new Swiper('.testimonial__container', {
     },
     breakpoints:{
         568:{
-            slidesPerView: 2,            
+            slidesPerView: 2,
         }
     }
 });

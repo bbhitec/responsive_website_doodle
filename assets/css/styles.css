@@ -56,7 +56,7 @@
     --z-fixed: 100;
     --z-modal: 1000;
 
-  
+
 
     /*========== Various ==========*/
     --default-transition: .3s;
@@ -164,7 +164,7 @@ img {
   margin-bottom: var(--mb-3);
 }
 
-.section__title, 
+.section__title,
 .section__subtitle {
   text-align: center;
 }
@@ -676,7 +676,7 @@ img {
 }
 
 .qualification__active[data-content] {
-  display: block;  
+  display: block;
 }
 
 .qualification__button.qualification__active {
@@ -1082,7 +1082,7 @@ img {
   .home__content{
     grid-template-columns: max-content 1fr 1fr;
   }
-  
+
   .home__data{
     grid-column: initial;
   }
@@ -1326,7 +1326,7 @@ img {
 
   .contact__form{
     /* [todo] parametrize */
-    width: 460px; 
+    width: 460px;
   }
 
   .contact__inputs{

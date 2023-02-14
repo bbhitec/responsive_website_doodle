@@ -1,5 +1,5 @@
 # Responsive Portfolio Website
-  
+
 Building a responsive portfolio mock website for self learning and doodling in HTML, CSS and JS.<br>
 
 
