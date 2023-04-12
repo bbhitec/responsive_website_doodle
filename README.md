@@ -19,16 +19,10 @@ Building a responsive portfolio mock website for self learning and doodling in H
 ![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
 ## WIP
-[x] Initial skeleton website as per tutorial<br>
-[ ] Parameter passing within HTML-CSS-JS<br>
-[ ] Parametrize cv link?<br>
-[ ] Prepare for cloning and make a little tutorial<br>
-[ ] Smooth scrolling everywhere?<br>
-[x] Testing screen sizes?<br>
 [ ] Treat in-code \[todos\]<br>
-
-### Repo condition
-![medium](https://img.shields.io/badge/medium&nbsp;clean-80-yellow)
+[ ] Incorporate Fade-in animations for some elements<br>
+<br>
+<br>
 
 
 
@@ -38,8 +32,9 @@ Pull the project or [view the live site](https://www.vnikolin.com/responsive_web
 ## Sources
 - Based on one of [`@bedimcode's`](https://github.com/bedimcode) awesome [tutorials](https://youtu.be/27JtRAI3QO8)
 - Lynda.com - CSS: Core conceps course
+- Various educationals on the web
 
-### Tools
+## Tools
 - [HSL calculator](https://www.w3schools.com/colors/colors_hsl.asp)
 - [Blob generator](https://www.blobmaker.app/)
 - [Swiper lib](https://swiperjs.com/)
