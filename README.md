@@ -5,7 +5,7 @@ Building a responsive portfolio mock website for self learning and doodling in H
 
 
 ## Gains
-- Self-learning and polishing HTML5 and CSS3:
+- Self-learning and polishing HTML5, CSS3 and JS:
     - Basic syntax and orientation
     - Selectors, classes, attrtibutes, modifiers
 - Scripting events, animations, modals
@@ -18,9 +18,9 @@ Building a responsive portfolio mock website for self learning and doodling in H
 ![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-## WIP
-[ ] Treat in-code \[todos\]<br>
-[ ] Incorporate Fade-in animations for some elements<br>
+## WIP/Next
+[ ] Incorporate Fade-in animations for key UI decorations<br>
+[ ] Lazy loads and image format optimizations<br>
 <br>
 <br>
 
